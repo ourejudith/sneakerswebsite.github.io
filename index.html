@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="#"><img src="images/swooshLogo.png" alt="logo nike" class="logo"></a>
+            <div class="toggle" onclick="toggleNav()"></div>
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#">Hot trend</a>
+                    </li>
+                    <li>
+                        <a href="#">Classiques</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Just wear Nike</h2>
+                <p>Entre dans la zone Nike <br> Et "deviens ce que tu es" <br> Parce qu'avec Nike, tout deviens possible</p>
+                <button>
+    Learn More
+</button>
+            </div>
+            <div class="imgBox">
+                <div class="swiper-container nikeSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/sneakers1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sneakers2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sneakers3.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/sneakers4.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <ul class="social">
+        <li>
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="facebook icon">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/">
+                <img src="images/twitter.png" alt="facebook icon">
+            </a>
+        </li>
+    </ul>
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2021 OURE Judith</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            loop: true,
+        });
+
+        function toggleNav() {
+            const navToggle = document.querySelector('.toggle');
+            const nav =
+                document.querySelector('.nav')
+            navToggle.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+    </script> -->
+
+</body>
+
+</html>
